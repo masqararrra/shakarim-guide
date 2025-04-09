@@ -1685,9 +1685,11 @@ async def main():
             logging.StreamHandler()
         ]
     )
-    
+
+    # Подготовка базы данных (если есть)
     setup_database()
-async def main():
+
+    # Запуск бота
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
