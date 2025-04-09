@@ -1687,10 +1687,8 @@ async def main():
     )
     
     setup_database()
-    logging.info("База данных готова!")
+async def main():
     await dp.start_polling(bot)
-
 
 if __name__ == "__main__":
     asyncio.run(main())
-    Executor.start_polling(dp)
