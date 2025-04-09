@@ -22,7 +22,7 @@ from openpyxl import Workbook
 
 # Токен бота
 TOKEN = "7797023420:AAGxA9sa-C2Ml-1KkF3fFk7Dct7G5LwOapA"
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 bot = Bot(token=TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(storage=storage)
